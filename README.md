@@ -19,6 +19,20 @@ allowed_keys:
 #  - eu-central-1
 ```
 
+## Sample output
+
+```
+Unused key pairs:
+    US West (Oregon) Main 82:a0:80:f1:3e:42:99:96:e4:24:d8:fc:0d:84:f9:06:c1:11:02:d3
+    EU (Ireland) test1 e6:b9:6c:a6:5a:96:bb:3a:79:fb:7f:44:0e:19:7e:06
+Machines with no key pair:
+    EU (Frankfurt) build-aget i-05d9a8af
+    EU (Frankfurt) test-site i-d25a0178
+Machines with an unallowed key pair:
+    EU (Ireland) junk-mailer i-540e5ffe svp 5d:84:f6:1c:2d:f4:c2:59:42:4f:53:e1:a5:2a:43:8c
+    EU (Frankfurt) griff-test i-c2135b0c griff 7c:4a:57:8d:4d:71:7d:bf:ba:57:31:1a:28:69:96:0e
+```
+
 ## AWS Policy
 
 To run the script only needs the folowing policy:
